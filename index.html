@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>DCU</title>
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/styles.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script src="js/scripts.js"></script>
+</head>
+<body>
+	<div data-role="page" id="home" >
+		<div data-role="header" data-position="fixed" >
+			<h1>DCU</h1>
+			<div data-role="navbar">
+				<div data-role="tabs">
+					<ul>
+						<li><a href="#home" data-icon="home">Inicio</a></li>
+						<li><a href="#team" data-icon="user">Equipo</a></li>
+						<li><a href="#proyect" data-icon="grid">Proyectos</a></li>
+						<li><a href="#contact" data-icon="mail">Contacto</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div data-role="content" class="ui-mobile-viewport ui-overlay-a">
+			<!-- home -->
+			<div data-role="page" id="home" data-url="home" tabindex="0" class="ui-page ui-page-theme-a ui-page-active">
+				<img id="home" src="img/cover.jpeg" alt="cover" class="cover">
+			</div>
+			<!-- /home -->
+			<!-- team -->
+			<div data-role="page" id="team" data-theme="a" data-url="team">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem assumenda sequi quas eligendi at suscipit autem consequatur id illum. Nihil culpa aliquam voluptas, consequuntur exercitationem delectus quae velit, perferendis nesciunt?</p>
+			</div>
+			<!-- /team -->
+		</div>
+		<div data-role="footer" style="text-align: center;" data-position="fixed" >
+			<div class="row">
+				<div class="col-2"><i class="fa fa-facebook-official"></i></div>
+				<div class="col-2"><i class="fa fa-youtube"></i></div>
+			    <div class="col-2"><i class="fa fa-instagram"></i></div>
+			    <div class="col-2"><i class="fa fa-snapchat"></i></div>
+			    <div class="col-2"><i class="fa fa-twitter"></i></div>
+			    <div class="col-2"><i class="fa fa-linkedin"></i></div>
+			</div>
+		    <p>Made by <u>Juan & Diego</u></p>
+		</div>
+	</div>
+</body>
+</html>

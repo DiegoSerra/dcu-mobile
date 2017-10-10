@@ -1,0 +1,38 @@
+img.cover{
+	text-align: center;
+    width: calc(100% + 32px);
+    margin: -16px;
+}
+
+.row{
+	text-align: center;
+	display: flex;
+}
+
+.col-2{
+	width: 20%;
+}
+
+.fa-facebook-official:hover {
+  color: #3B5998;
+}
+
+.fa-youtube:hover {
+  color: #bb0000;
+}
+
+.fa-instagram:hover {
+  color: #125688;
+}
+
+.fa-snapchat:hover {
+  color: #fffc00;
+}
+
+.fa-twitter:hover {
+  color: #55ACEE;
+}
+
+.fa-linkedin:hover {
+  color: #007bb5;
+}
