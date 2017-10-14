@@ -12,11 +12,13 @@
 	<script src="js/scripts.js"></script>
 </head>
 <body>
-	<div data-role="page" id="home" >
+	<div data-role="page">
 		<div data-role="header" data-position="fixed" >
 			<h1>DCU</h1>
-			<div data-role="navbar">
-				<div data-role="tabs">
+		</div>
+		<div>
+			<div data-role="tabs" id="tabs">
+				<div data-role="navbar">
 					<ul>
 						<li><a href="#home" data-icon="home">Inicio</a></li>
 						<li><a href="#team" data-icon="user">Equipo</a></li>
@@ -24,18 +26,16 @@
 						<li><a href="#contact" data-icon="mail">Contacto</a></li>
 					</ul>
 				</div>
+				<div id="home" data-url="home" tabindex="0" class="ui-body-contet">
+					<img id="home" src="img/cover.jpeg" alt="cover" class="cover">
+				</div>
+				<!-- /home -->
+				<!-- team -->
+				<div id="team" data-theme="a" data-url="team">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem assumenda sequi quas eligendi at suscipit autem consequatur id illum. Nihil culpa aliquam voluptas, consequuntur exercitationem delectus quae velit, perferendis nesciunt?</p>
+				</div>
 			</div>
-		</div>
-		<div data-role="content" class="ui-mobile-viewport ui-overlay-a">
 			<!-- home -->
-			<div data-role="page" id="home" data-url="home" tabindex="0" class="ui-page ui-page-theme-a ui-page-active">
-				<img id="home" src="img/cover.jpeg" alt="cover" class="cover">
-			</div>
-			<!-- /home -->
-			<!-- team -->
-			<div data-role="page" id="team" data-theme="a" data-url="team">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem assumenda sequi quas eligendi at suscipit autem consequatur id illum. Nihil culpa aliquam voluptas, consequuntur exercitationem delectus quae velit, perferendis nesciunt?</p>
-			</div>
 			<!-- /team -->
 		</div>
 		<div data-role="footer" style="text-align: center;" data-position="fixed" >
