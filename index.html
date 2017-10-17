@@ -68,10 +68,12 @@
 				<!-- /proyect -->
 				<!-- contact -->
 				<div id="contact" data-url="contact">
-					<input type="text" class="form-control" id="name" placeholder="Nombre:">
-					<input type="email" class="form-control" id="email" placeholder="Email:">
-					<textarea rows=5 type="text" class="form-control" id="message" name="" placeholder="Escriba su mensaje aquí"></textarea>
-					<input type="submit" class="form-control" id="submit" value="Enviar">
+					<form action="#">
+						<input type="text" class="form-control" id="name" name="name" placeholder="Nombre:" required="required">
+						<input type="email" class="form-control" id="email" name="email" placeholder="Email:" required="required">
+						<textarea rows="5" type="text" class="form-control" id="message" name="message" placeholder="Escriba su mensaje aquí" required="required"></textarea>
+						<input type="submit" class="form-control" id="submit" value="Enviar" class="send">
+					</form>
 				</div>
 				<!-- /contact -->
 			</div>
