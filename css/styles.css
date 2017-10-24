@@ -75,3 +75,7 @@ img.cover{
 .fa-linkedin:hover {
   color: #007bb5;
 }
+
+.black {
+  color: black !important;
+}
